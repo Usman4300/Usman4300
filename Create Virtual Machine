@@ -1,0 +1,11 @@
+Creating a Virtual Machine
+gcloud auth list
+gcloud config list project
+After creating vm instances
+Now open ssh
+Run this commands
+sudo su -
+apt-get update
+apt-get install nginx -y
+ps auwx | grep nginx
+gcloud compute instances create gcelab2 --machine-type n1-standard-2 --zone us-central1-f
